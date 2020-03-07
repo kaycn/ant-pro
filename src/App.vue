@@ -2,8 +2,8 @@
   <div id="app">
     <div id="nav">
       <a-button>这是按钮</a-button>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/dashboard/analysis">dashboard</router-link> |
+      <router-link to="/form">Form</router-link>
     </div>
     <router-view />
   </div>
